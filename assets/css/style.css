@@ -3,6 +3,9 @@ only screen
 and (min-width: 480px)
 and (max-width: 640px) {
 
+	/* Absolute Position the NavBar due to movement*/
+	/*Go through and comment code */
+
 	* {
 		box-sizing: border-box;
 	}
@@ -24,6 +27,7 @@ and (max-width: 640px) {
 	}
 
 	#mainHeading {
+		position: relative;
 		font-weight:bold;
 	  overflow: auto;
 		background-color: #4aaaa5;
@@ -138,6 +142,7 @@ and (max-width: 640px) {
 	}
 
 		#socialMediaHeading {
+			font-weight: bold;
 			color: #4aaaa5;
 			font-size: 140%;
 			padding-top: 20px;
@@ -164,6 +169,35 @@ and (max-width: 640px) {
 		padding-top: 30px;
 		padding-bottom: 30px;
 		border-top: 5px solid #4aaaa5;
+	}
+
+	#inputForm {
+		padding-top: 20px;
+		padding-left: 20px;
+		padding-right: 20px;
+		font-size: 18px;
+	}
+
+	#name {
+	width: 100%;
+	margin-top: 10px;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+	}
+
+	#email {
+		width: 100%;
+		margin-bottom: 10px;
+		margin-top: 10px;
+		padding-bottom: 10px;
+	}
+
+	#message {
+		width: 100%;
+		margin-bottom: 10px;
+		margin-top: 10px;
+		padding-bottom: 10px;
+		border: 1px solid lightgray;
 	}
 }
 
@@ -335,6 +369,7 @@ and (max-width: 768px) {
 	}
 
 		#socialMediaHeading {
+			font-weight: bold;
 			color: #4aaaa5;
 			font-size: 160%;
 			padding-top: 20px;
@@ -362,6 +397,35 @@ and (max-width: 768px) {
 		padding-bottom: 30px;
 		border-top: 5px solid #4aaaa5;
 	}
+
+	#inputForm {
+		padding-top: 20px;
+		padding-left: 20px;
+		padding-right: 20px;
+		font-size: 18px;
+	}
+
+	#name {
+	width: 100%;
+	margin-top: 10px;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+	}
+
+	#email {
+		width: 100%;
+		margin-bottom: 10px;
+		margin-top: 10px;
+		padding-bottom: 10px;
+	}
+
+	#message {
+		width: 100%;
+		margin-bottom: 10px;
+		margin-top: 10px;
+		padding-bottom: 10px;
+		border: 1px solid lightgray;
+	}
 }
 
 @media
@@ -388,6 +452,7 @@ and (max-width: 980px) {
 	}
 
 	#mainHeading {
+		font-weight: bold;
 		float: left;
 		overflow: auto;
 		color: white;
@@ -449,6 +514,7 @@ and (max-width: 980px) {
 		color: #4aaaa5;
 		margin-left: 20px;
 		margin-right: 20px;
+		font-weight: bold;
 	}
 
 	#pictureOfMe {
@@ -509,6 +575,7 @@ and (max-width: 980px) {
 	}
 
 	#socialMediaHeading {
+		font-weight: bold;
 		text-align: center;
 		margin-left: 20px;
 		margin-right: 20px;
@@ -537,6 +604,36 @@ and (max-width: 980px) {
 		width: 100%;
 		background-color: #666666;
 	}
+
+	#inputForm {
+		padding-top: 20px;
+		padding-left: 20px;
+		padding-right: 20px;
+		font-size: 18px;
+	}
+
+	#name {
+	width: 100%;
+	margin-top: 10px;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+	}
+
+	#email {
+		width: 100%;
+		margin-bottom: 10px;
+		margin-top: 10px;
+		padding-bottom: 10px;
+	}
+
+	#message {
+		width: 100%;
+		margin-bottom: 10px;
+		margin-top: 10px;
+		padding-bottom: 10px;
+		border: 1px solid lightgray;
+	}
+
 }
 
 	/* Desktop Version */
@@ -571,6 +668,7 @@ and (max-width: 980px) {
 	}
 
 	#mainHeading {
+		font-weight: bold;
 		margin-left: 155px;
 		text-align: center;
 		padding: 30px 30px 30px 30px;
@@ -662,6 +760,7 @@ and (max-width: 980px) {
 	}
 
 	#secondHeading {
+		font-weight: bold;
 		padding-bottom: 30px;
 		font-size: 200%;
 		border-bottom: 4px solid #dddddd;
@@ -785,6 +884,7 @@ and (max-width: 980px) {
 	}
 
 	#socialMediaHeading {
+		font-weight: bold;
 		font-size: 130%;
 		border-bottom: 3px solid #dddddd;
 		padding-bottom: 20px;
