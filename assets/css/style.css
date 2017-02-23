@@ -1,6 +1,5 @@
 @media
 only screen
-and (orientation: potrait)
 and (min-width: 480px)
 and (max-width: 640px) {
 
