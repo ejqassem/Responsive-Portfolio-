@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- Speciality Character Recognition -->
+  <meta charset="UTF-8">
+  <!--  Mobile Broswer Detection Tag-->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title> Eyad Qassem </title>
+  <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+<!--  Custom CSS Stylesheet -->
+  <link rel ="stylesheet" type="text/css" href="style.css">
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+</head>
+<body>
+
+<!-- Static Navbar -->
+  <nav class="navbar navbar-static-top" id="navbar">
+    <div class="container">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#">Eyad Qassem</a>
+      </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="index.html">Home</a></li>
+      <li><a href="basics.html">Basics of Bootstrap</a></li>
+      <li><a href="#">Contact Me</a></li>
+    </ul>
+  </div>
+</nav>
+
+<div class="container-fluid" id="banner">
+  <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" id="banner2">
+    <div class="hovereffect">
+        <img class="img-responsive" src="images/desk-setup-1.png" alt="">
+          <div class="overlay">
+              <h2> Basics of Bootstrap</h2>
+                <p> Let's get Started! </p>
+          </div>
+        </div>
+      </div>
+  </div>
+
+<!-- Main Content -->
+  <div class="container-fluid" id="mainSection">
+    <!-- Mobile-First Heading -->
+    <div class="row">
+      <span class="glyphicon glyphicon-phone glyphicon-large" aria-hidden:"true"></span>
+      <h2> <span id="mobileFirstHeading"> Bootstrap </span>    <span id="mobileFirstHeading2"> A Mobile-first design</span> <h2>
+    </div>
+    <!-- Left-Aligned Bootstrap Content Column -->
+    <div class="row" id="mainSectionBullets">
+      <div class="col-sm-4">
+        <span class="glyphicon glyphicon-fullscreen glyphicon-large" aria-hidden:"true"></span>
+        <h3> Content </h3>
+        <p> Determine a hiearchy or pecking order for your content. Typically, a mobile site has fewer elements and there is a progressive enhancement of elements as the width of page gets larger. </p>
+      </div>
+    <!--  Right-Aligned Bootstrap Grid-System Content -->
+      <div class="col-sm-8">
+        <span class="glyphicon glyphicon-sort-by-attributes glyphicon-large" aria-hidden:"true"></span>
+        <h3> Bootstrap Grid-System </h3>
+        <!-- Column about Bootstrap Grid System -->
+        <div class="row">
+          <div class="col-sm-6">
+            <ul class="gridSection">
+              <li> Rows must be contained within .container class </li>
+              <li> Use these rows to create horizontal groups of columns </li>
+              <li> Keep in mind that the width of a container is divided into 12 sections.</li>
+            </ul>
+          </div>
+          <!--  Column containing Coding Example -->
+        <div class="col-sm-6" id="htmlSection">
+          <p class="gridSection"> HTML coding example of the Bootstrap framework using rows to create columns is shown below: </p>
+            <!-- HTML Coding Example Below -->
+            <xmp class="gridSection">
+              <div class="container">
+                <div class= "row">
+                  <div class="col-xs-6">
+                    <h1> 1st column </h1>
+                  </div>
+                  <div class="col-xs-6">
+                    <h1> 2nd column </h1>
+                  </div>
+                </div>
+              </div>
+            </xmp>
+            <!-- HTML Coding Example Above-->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>

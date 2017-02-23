@@ -14,31 +14,34 @@
   <link rel ="stylesheet" type="text/css" href="style.css">
   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="script.js"></script>
 </head>
 <body>
 
 <!-- Static Navbar -->
-  <nav class="navbar navbar-inverse navbar-static-top" id="navbar">
+  <nav class="navbar navbar-static-top" id="navbar">
     <div class="container">
       <div class="navbar-header">
         <a class="navbar-brand" href="#">Eyad Qassem</a>
       </div>
     <ul class="nav navbar-nav">
-      <li class="active"><a href="#">Home</a></li>
-      <li><a href="#">Portfolio</a></li>
+      <li class="active"><a href="index.html">Home</a></li>
+      <li><a href="basics.html">Basics of Bootstrap</a></li>
       <li><a href="#">Contact Me</a></li>
     </ul>
   </div>
 </nav>
 
-<!-- Main Header -->
-  <div class="jumbotron banner">
-    <div class="container-fluid">
-      <div class="page-header">
-        <h1 id="heading"><img src=" images/twitter-bootstrap.jpg" alt="Twitter Bootstrap Logo" class="img-responsive" id="logo"> How to use Bootstrap </h1>
-          <p> An interactive, step-by-step guide on how to use bootstrap to make a personal website tailored for beginners </p>
+<div class="container-fluid" id="banner">
+  <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" id="banner2">
+    <div class="hovereffect">
+        <img class="img-responsive" src="images/mac-keyboard .jpg" alt="">
+          <div class="overlay">
+              <h2> How to use Bootstrap</h2>
+                <p> An interactive, step-by-step guide tailored for beginners </p>
+          </div>
+        </div>
       </div>
-    </div>
   </div>
 
 <!-- Main Content -->
@@ -70,20 +73,20 @@
   <div class="container-fluid" id="getStarted">
     <div class="row">
       <div class="col-sm-12">
-        <h3 id="thirdHeading"> So how do we get started? </h3>
+        <h2 id="thirdHeading"> So how do we get started? </h2>
       </div>
     </div>
     <div class="row" id="getStartedBullets">
       <div class="col-sm-4">
-        <h4><span class="glyphicon glyphicon-pushpin"></span> <a href="http://getbootstrap.com/" target="_blank" id="getBootLink"> Save this link!</a> </h4>
+        <h3><span class="glyphicon glyphicon-pushpin"></span> <a href="http://getbootstrap.com/" target="_blank" id="getBootLink"> Save this link!</a> </h3>
         <p> This link is your go-to reference for formatting your page as it contains both CSS and JavaScript components </p>
       </div>
       <div class="col-sm-4">
-        <h4> <span class="glyphicon glyphicon-cog" aria-hidden:"true"></span> SASS or LESS </h4>
+        <h3> <span class="glyphicon glyphicon-cog" aria-hidden:"true"></span> SASS or LESS </h3>
         <p> Bootstrap was created with LESS in-mind. However, there are ways to use either; google is your friend here. I am currently using SASS and can explain the process of using SASS in next section. </p>
       </div>
       <div class="col-sm-4">
-        <h4> <span class="glyphicon glyphicon-film" aria-hidden: "true"></span> Start Designing! </h4>
+        <h3> <span class="glyphicon glyphicon-film" aria-hidden: "true"></span> Start Designing! </h3>
         <p> Keep in mind bootstrap's use of flex-box. It's important to design your page using a grid system comprised of rows containing colums. </p>
       </div>
     </div>
